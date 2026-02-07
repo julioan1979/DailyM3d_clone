@@ -1,56 +1,385 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DeliMed - Organize seus medicamentos domésticos de forma simples e eficiente">
-    <title>DeliMed - Organização de Medicamentos</title>
+    <meta name="description" content="DailyMed - Aplicação inteligente para gestão de medicamentos com armário digital, lembretes personalizáveis, alertas de validade e interações medicamentosas. Desenvolvida por estudantes de Farmácia da Profitecla Porto.">
+    <meta name="keywords" content="gestão medicamentos, saúde digital, farmácia, app medicamentos, lembretes medicação, alertas validade, interações medicamentosas, reciclagem medicamentos, Valormed">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DailyMed - Organização de Medicamentos">
+    <meta property="og:description" content="Aplicação inteligente para gestão de medicamentos com armário digital, lembretes e alertas de validade.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="DailyMed - Organização de Medicamentos">
+    <meta property="twitter:description" content="Aplicação inteligente para gestão de medicamentos com armário digital, lembretes e alertas de validade.">
+
+    <title>DailyMed - Organização de Medicamentos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>DeliMed</h1>
-            <p class="tagline">Organize seus medicamentos com segurança</p>
+    <header class="site-header">
+        <div class="container topbar">
+            <div class="brand">
+                <img src="images/logo.png" alt="Logótipo DailyMed" class="logo">
+                <div>
+                    <p class="brand-name">DailyMed</p>
+                    <p class="brand-tagline">Saúde à distância de um clique</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#problema">Problema</a>
+                <a href="#beneficios">Benefícios</a>
+                <a href="#destaques">Destaques</a>
+                <a href="#literacia">Literacia</a>
+                <a href="#seguranca">Segurança</a>
+                <a href="#faq">FAQ</a>
+                <a href="#projeto">Projeto</a>
+                <a href="#acompanhe" class="nav-cta">Instagram</a>
+            </nav>
+        </div>
+        <div class="container hero">
+            <div class="hero-text">
+                <span class="pill">Em desenvolvimento</span>
+                <h1>Gestão inteligente de medicamentos para uma rotina mais segura</h1>
+                <p>Organize o armário digital, receba lembretes claros e evite riscos com alertas de validade e interações.</p>
+                <p class="hero-note">Projeto académico com impacto social, desenvolvido na Profitecla Porto.</p>
+                <div class="hero-actions">
+                    <a class="cta" href="https://www.instagram.com/dailym3d?igsh=YzFibGgweGdmcmFn" target="_blank" rel="noopener noreferrer">Seguir no Instagram</a>
+                    <button class="ghost" disabled>App em breve</button>
+                </div>
+                <div class="hero-highlights">
+                    <div>
+                        <p class="highlight-title">Pensado para</p>
+                        <p>Idosos, doentes crónicos, cuidadores e pessoas polimedicadas</p>
+                    </div>
+                    <div>
+                        <p class="highlight-title">Objetivo</p>
+                        <p>Reduzir erros de medicação e melhorar a adesão</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="phone-stack">
+                    <div class="phone phone-front">
+                        <div class="phone-bar"></div>
+                        <div class="phone-block"></div>
+                        <div class="phone-block"></div>
+                        <div class="phone-block short"></div>
+                    </div>
+                    <div class="phone phone-back"></div>
+                </div>
+                <p class="visual-caption">Capturas ilustrativas. As imagens finais serão adicionadas em breve.</p>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="about">
+        <section class="section social-proof">
             <div class="container">
-                <h2>Sobre o App</h2>
-                <p>O DeliMed é um aplicativo desenvolvido para ajudar você a organizar seus medicamentos domésticos de forma simples e eficiente. Com ele, você pode:</p>
-                <ul>
-                    <li>Manter um registro completo de todos os seus medicamentos</li>
-                    <li>Configurar lembretes para tomar seus medicamentos no horário certo</li>
-                    <li>Controlar a validade dos medicamentos</li>
-                    <li>Gerenciar o estoque de medicamentos em casa</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="creators">
-            <div class="container">
-                <h2>Criadores</h2>
-                <p>Este projeto foi desenvolvido por alunos do curso técnico de farmácia, com o objetivo de facilitar o gerenciamento doméstico de medicamentos e promover o uso seguro e consciente.</p>
-                <div class="creators-info">
-                    <p><strong>Projeto Acadêmico</strong> - Técnico em Farmácia</p>
+                <div class="section-head">
+                    <h2>O desafio da medicação</h2>
+                    <p>Erros, esquecimentos e falta de organização afetam a segurança diária.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <p class="stat-value">50%</p>
+                        <p>da população mundial não cumpre corretamente a medicação (OMS).</p>
+                    </div>
+                    <div class="stat-card">
+                        <p class="stat-value">10%</p>
+                        <p>dos internamentos estão ligados a falhas na toma de medicamentos.</p>
+                    </div>
+                    <div class="stat-card">
+                        <p class="stat-value">36,9%</p>
+                        <p>das pessoas com mais de 65 anos em Portugal são polimedicadas.</p>
+                    </div>
+                </div>
+                <div class="proof-partners">
+                    <p class="proof-label">Parcerias e iniciativas</p>
+                    <div class="proof-tags">
+                        <span>Valormed</span>
+                        <span>Escola Básica de Matosinhos</span>
+                        <span>Farmácia Aliança</span>
+                        <span>Profitecla - Porto</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="download">
+        <section id="problema" class="section">
             <div class="container">
-                <h2>Baixe Agora</h2>
-                <p>Disponível para download em breve</p>
-                <button class="download-btn">Download</button>
+                <div class="section-head">
+                    <h2>Principais desafios no dia a dia</h2>
+                    <p>Fatores que aumentam erros e dificultam a adesão terapêutica.</p>
+                </div>
+                <div class="problem-list">
+                    <div>
+                        <h3>Esquecimentos e doses erradas</h3>
+                        <p>Rotinas complexas geram falhas, duplicações e insegurança.</p>
+                    </div>
+                    <div>
+                        <h3>Interações e validade</h3>
+                        <p>Combinações incorretas e medicamentos vencidos elevam o risco.</p>
+                    </div>
+                    <div>
+                        <h3>Descarte inadequado</h3>
+                        <p>Falta de informação leva ao descarte incorreto e impactos ambientais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Benefícios principais</h2>
+                    <p>Mais segurança, menos esquecimentos e controlo total da medicação.</p>
+                </div>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>Rotina mais simples</h3>
+                        <p>Lembretes claros e confirmação de toma evitam falhas e duplicações.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Inventário sempre atualizado</h3>
+                        <p>Saiba o que tem em casa, quantidades e datas num só lugar.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Alertas de risco</h3>
+                        <p>Deteção de interações e avisos de validade aumentam a segurança.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Descarte consciente</h3>
+                        <p>Guia simples para reciclagem correta de medicamentos expirados.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="app" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Como o app vai parecer</h2>
+                    <p>Mostramos a estrutura prevista enquanto as capturas finais não chegam.</p>
+                </div>
+                <div class="preview-grid">
+                    <div class="preview-card">
+                        <div class="preview-screen"></div>
+                        <p>Resumo diário com alertas de toma e validade.</p>
+                    </div>
+                    <div class="preview-card">
+                        <div class="preview-screen"></div>
+                        <p>Armário digital com detalhes de cada medicamento.</p>
+                    </div>
+                    <div class="preview-card">
+                        <div class="preview-screen"></div>
+                        <p>Calendário de posologia e confirmação de tomas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destaques" class="section section-alt">
+            <div class="container split">
+                <div>
+                    <div class="section-head left">
+                            <h2>Funcionalidades de lançamento</h2>
+                            <p>O essencial para gerir medicamentos com rigor desde o primeiro dia.</p>
+                        </div>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="feature-dot"></span>
+                            <div>
+                                <h3>Armário Digital</h3>
+                                <p>Registo de nome, dosagem, posologia e quantidade disponível.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-dot"></span>
+                            <div>
+                                <h3>Lembretes personalizados</h3>
+                                <p>Notificações adaptadas à sua rotina, com confirmação de toma.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-dot"></span>
+                            <div>
+                                <h3>Alertas de validade e stock</h3>
+                                <p>Monitorização automática com avisos de reposição.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-dot"></span>
+                            <div>
+                                <h3>Interações medicamentosas</h3>
+                                <p>Identificação de combinações potencialmente perigosas.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-panel">
+                    <h3>Próximos passos</h3>
+                    <p>Depois do lançamento, queremos expandir a utilidade do DailyMed com novas ferramentas para a comunidade.</p>
+                    <div class="panel-card">
+                        <p class="panel-title">Localizador Valormed</p>
+                        <p>Mapa interativo com pontos de recolha próximos para entrega de medicamentos expirados.</p>
+                    </div>
+                    <div class="panel-card">
+                        <p class="panel-title">Gamificação</p>
+                        <p>Desafios e recompensas para incentivar a adesão terapêutica.</p>
+                    </div>
+                    <div class="panel-card">
+                        <p class="panel-title">Conta associada à farmácia</p>
+                        <p>Ligação à farmácia habitual para apoio e acompanhamento.</p>
+                    </div>
+                    <div class="panel-card">
+                        <p class="panel-title">Perfis por diagnóstico</p>
+                        <p>Conteúdos e alertas adaptados a cada necessidade clínica.</p>
+                    </div>
+                    <div class="panel-card">
+                        <p class="panel-title">Checklist de viagem</p>
+                        <p>Lista inteligente para viagens e rotinas fora de casa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="literacia" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Literacia em saúde</h2>
+                    <p>Conteúdos simples para apoiar decisões seguras no dia a dia.</p>
+                </div>
+                <div class="literacy-grid">
+                    <article class="card">
+                        <h3>Artigos e dicas de saúde</h3>
+                        <p>Informação clara sobre gestão de doenças crónicas, hábitos e prevenção.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Folhetos informativos</h3>
+                        <p>Versões simplificadas dos temas essenciais para reduzir dúvidas.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Boas práticas de medicação</h3>
+                        <p>Orientações para evitar erros comuns e melhorar a adesão terapêutica.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="seguranca" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Segurança e privacidade</h2>
+                    <p>Tratamos informação de saúde com responsabilidade e transparência.</p>
+                </div>
+                <div class="security-grid">
+                    <div class="security-card">
+                        <h3>Dados sob controlo</h3>
+                        <p>Os dados pessoais são usados apenas para o funcionamento do app e nunca para fins comerciais.</p>
+                    </div>
+                    <div class="security-card">
+                        <h3>Alertas com critério</h3>
+                        <p>As notificações são desenhadas para reduzir riscos, sem sobrecarregar o utilizador.</p>
+                    </div>
+                    <div class="security-card">
+                        <h3>Uso responsável</h3>
+                        <p>O DailyMed não substitui aconselhamento médico ou farmacêutico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Perguntas frequentes</h2>
+                    <p>Respostas rápidas para as dúvidas mais comuns.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>Quando o app será lançado?</summary>
+                        <p>Estamos em fase de desenvolvimento e testes. As datas serão comunicadas no Instagram.</p>
+                    </details>
+                    <details>
+                        <summary>O DailyMed vai ser gratuito?</summary>
+                        <p>O objetivo é disponibilizar uma versão base gratuita para utilizadores domésticos.</p>
+                    </details>
+                    <details>
+                        <summary>Como são tratados os meus dados?</summary>
+                        <p>Os dados são usados apenas para o funcionamento do app e não para fins comerciais.</p>
+                    </details>
+                    <details>
+                        <summary>Como registo os meus medicamentos?</summary>
+                        <p>O registo será feito manualmente, com campos simples para nome, dosagem e posologia.</p>
+                    </details>
+                    <details>
+                        <summary>Posso usar para familiares?</summary>
+                        <p>Sim. A ideia é permitir uma gestão simples para cuidadores e famílias.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="projeto" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Projeto e contexto</h2>
+                    <p>Prova de Aptidão Profissional com foco social, saúde pública e sustentabilidade.</p>
+                </div>
+                <div class="team-card">
+                    <div>
+                        <h3>Criadores</h3>
+                        <p><strong>Bianca de Mota Vasconcelos</strong></p>
+                        <p><strong>Diana Raquel Silva Franco</strong></p>
+                        <p><strong>José Guilherme Santos Aguiar Neves</strong></p>
+                        <p class="project-meta">Auxiliar de Farmácia - 3º Ano (Turma AF3)</p>
+                        <p class="project-meta">Escola Profissional Profitecla - Porto | 2025/26</p>
+                        <p class="project-meta">Missão: facilitar a gestão doméstica de medicamentos e promover uma utilização segura e sustentável.</p>
+                    </div>
+                    <div>
+                        <h3>Atividades realizadas</h3>
+                        <ul class="project-list">
+                            <li>Criação do logótipo e identidade visual.</li>
+                            <li>Plataforma Instagram para divulgação.</li>
+                            <li>Campanhas de sensibilização sobre Valormed.</li>
+                            <li>Ações educativas sobre medicação e reciclagem.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Parcerias e iniciativas</h3>
+                        <ul class="project-list">
+                            <li>Valormed (reciclagem de medicamentos).</li>
+                            <li>Escola Básica de Matosinhos.</li>
+                            <li>Farmácia Aliança.</li>
+                            <li>Profitecla - Porto.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acompanhe" class="section callout">
+            <div class="container callout-content">
+                <div>
+                    <h2>Acompanhe o desenvolvimento</h2>
+                    <p>Partilhamos bastidores, evoluções e datas importantes no nosso Instagram.</p>
+                </div>
+                <div class="callout-actions">
+                    <a class="cta" href="https://www.instagram.com/dailym3d?igsh=YzFibGgweGdmcmFn" target="_blank" rel="noopener noreferrer">@dailym3d</a>
+                    <button class="ghost" disabled>Beta em breve</button>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 DeliMed. Todos os direitos reservados.</p>
+        <div class="container footer-content">
+            <p>&copy; 2026 DailyMed. Todos os direitos reservados.</p>
+            <p>Feito com foco em segurança e cuidado diário.</p>
         </div>
     </footer>
 </body>

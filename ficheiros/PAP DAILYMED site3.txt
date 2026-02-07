@@ -1,0 +1,520 @@
+Escola Profissional Profitecla � Porto 
+
+
+
+DailyMed - Sa�de � dist�ncia de um clique
+
+Bianca de Mota Vasconcelos
+Diana Raquel Silva Franco
+Jos� Guilherme Santos Aguiar Neves
+
+Curso: Auxiliar de Farm�cia
+Ano: 3� Ano
+Turma: AF3
+Ano Letivo: 2025�26
+
+
+Porto, mar�o 2026
+
+
+Agradecimentos
+A realiza��o deste relat�rio final representa o culminar de um percurso acad�mico exigente e profundamente marcante, que apenas foi poss�vel gra�as ao apoio, dedica��o e contributo de diversas pessoas e institui��es, �s quais expressamos o nosso sincero e profundo agradecimento.
+Em primeiro lugar, gostar�amos de manifestar um agradecimento muito especial � Professora Patr�cia Franco, Coordenadora de Curso, Diretora de turma e Orientadora da Prova de Aptid�o Profissional, pela orienta��o incondicional ao longo destes tr�s anos. A sua dedica��o, disponibilidade constante, profissionalismo e apoio incans�vel foram fundamentais para o nosso crescimento acad�mico e pessoal, bem como para o desenvolvimento e concretiza��o deste projeto. Para al�m da orienta��o acad�mica, agradecemos a amizade que se construiu nos momentos mais peculiares desta trajet�ria, marcada por desafios, aprendizagens e supera��o. Levaremos connosco, para o resto das nossas vidas, todos os momentos partilhados, pois uma simples �obrigada� n�o � suficiente para expressar a nossa gratid�o.
+Agradecemos igualmente aos professores Lu�s Bastos, Pedro Grilo e Andr� Martins, pelo contributo essencial ao longo deste percurso, pelas sugest�es, partilha de conhecimentos e pelo apoio prestado, que nos ajudaram a tornar esta ideia mais realista, estruturada e criativa. O vosso acompanhamento foi determinante para a evolu��o deste trabalho.
+Aos nossos colegas de curso, agradecemos pelo esp�rito de entreajuda, partilha de experi�ncias e companheirismo demonstrado ao longo de todo o percurso acad�mico, que tornaram esta caminhada mais enriquecedora e significativa. Estendemos tamb�m o nosso agradecimento a todos os docentes da escola e �s institui��es onde realiz�mos as nossas atividades, pela colabora��o, disponibilidade e aprendizagem proporcionada.
+Por fim, mas n�o menos importante, deixamos um agradecimento muito especial aos nossos familiares, pelo apoio constante do in�cio ao fim deste percurso. Uns mais de perto, outros mais de longe, nunca nos deixaram caminhar s�s. Mesmo nos momentos de d�vida e incerteza, estiveram sempre presentes, oferecendo apoio, compreens�o e motiva��o, fundamentais para alcan�armos esta etapa.
+A todos os que, direta ou indiretamente, contribu�ram para a concretiza��o deste trabalho e para a conclus�o desta etapa t�o significativa das nossas vidas, o nosso mais sincero e sentido agradecimento.
+Agradecemos � Profitecla do Porto pela oportunidade de, ao longo destes tr�s anos, nos proporcionar uma forma��o s�lida e de qualidade, que contribuiu de forma decisiva para o nosso crescimento acad�mico, profissional e pessoal. Foi neste contexto que adquirimos compet�ncias essenciais e nos prepar�mos para ingressar no mercado de trabalho como profissionais respons�veis e qualificados.
+Guardamos, igualmente, as mem�rias marcantes vividas ao longo deste percurso, que ultrapassam o �mbito acad�mico e fazem parte da nossa hist�ria pessoal. Este trajeto ficar� para sempre associado a aprendizagens, desafios e conquistas que levaremos connosco para o futuro.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introdu��o
+
+A presente Prova de Aptid�o Profissional, intitulada DailyMed � Sa�de � dist�ncia de um clique, foi desenvolvida no �mbito do Curso T�cnico Auxiliar de Farm�cia da Escola Profissional Profitecla do Porto. O principal prop�sito deste projeto � apresentar uma solu��o digital que facilite a gest�o de medicamentos e promova uma utiliza��o mais segura, organizada e consciente, especialmente entre pessoas que lidam diariamente com rotinas terap�uticas complexas. Enquanto grupo, tivemos a oportunidade de aprofundar conhecimentos, refletir sobre problem�ticas reais e propor uma resposta inovadora para os problemas que identificamos. A tem�tica escolhida surgiu da necessidade cada vez mais evidente de apoiar utentes que enfrentam desafios como polimedica��o, esquecimentos frequentes, falta de organiza��o terap�utica e desconhecimento sobre intera��es ou prazos de validade. A DailyMed surge, assim, como uma ferramenta de apoia que pretende tornar estes processos mais simples e acess�veis. A fundamenta��o te�rica inclu�da no presente relat�rio aborda v�rios aspetos relacionados com o uso inadequado de medicamentos, destacando os riscos associados � m� ades�o, � utiliza��o incorreta de dosagens, � falta de aten��o � validade e ao descarte errado dos f�rmacos. Analisamos tamb�m o impacto destas situa��es na sa�de p�blica e o papel dos profissionais de farm�cia na orienta��o, educa��o e apoio ao utente. Ao desenvolvermos este projeto, procur�mos refor�ar a import�ncia de uma gest�o terap�utica respons�vel e da promo��o da literacia em sa�de. A aplica��o DailyMed foi pensada precisamente para apoiar este processo, permitindo ao utilizador organizar a sua medica��o, receber alertas importantes, aceder a informa��es simplificadas e contribuir para a reciclagem correta dos res�duos farmac�uticos. 
+
+
+�ndice
+Agradecimentos	2
+Introdu��o	3
+FUNDAMENTA��O TE�RICA	7
+Contextualiza��o da problem�tica	7
+Desafios no uso de medicamentos	9
+Ades�o � Terap�utica	9
+Trocas de Medica��o/ Duplica��o de medica��o	10
+Intera��es Medicamentosas	10
+Prazos de Validade	11
+A Aplica��o DailyMed	11
+Funcionalidades da Dailymed	13
+Arm�rio Digital de Medicamentos	13
+Lembretes Personaliz�veis	14
+Alertas de Validade e de Stock	14
+Alertas de Intera��es Medicamentosas	14
+Artigos e Dicas de Sa�de	15
+Guia de Reciclagem	15
+Localizador de Pontos de Reciclagem de Medicamentos	15
+Funcionalidades Futuras da Dailymed	15
+Gamifica��o	15
+Conta associada � minha farm�cia	16
+Perfis personalizados para diferentes tipos de diagn�stico	16
+Acrescentar l�nguas	16
+Folhetos informativos	16
+Check-list de medicamentos para viajar	17
+FUNDAMENTA��O PR�TICA	18
+Descri��o das Atividades	18
+Atividade 1: Cria��o do log�tipo	18
+Atividade 2: Cria��o da Plataforma Instagram	18
+Atividade 3: Cria��o das Sweatshirts	19
+Atividade 4: Campanha Valormed	20
+Atividade 5: Fake News e Reciclagem	20
+Parcerias/ Patroc�nios	22
+Conclus�o	24
+Anexos	25
+Anexo I- Diagrama de GANTT	26
+Anexo II- Log�tipo	27
+Anexo III- P�gina na plataforma Instagram	28
+Anexo IV- Sweatshirt	29
+Anexo V- Campanha: �Valormed�	30
+Anexo VI- Escola B�sica de Matosinhos: �Fake News e Reciclagem�	33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FUNDAMENTA��O TE�RICA
+A gest�o adequada de medicamentos constitui um dos pilares essenciais para a salvaguarda da sa�de p�blica, considerando que o uso indevido de f�rmacos pode originar complica��es graves e, em casos extremos, consequ�ncias fatais. Neste sentido, torna-se imperativo o desenvolvimento de uma ferramenta tecnol�gica que possibilite aos seus utilizadores uma gest�o eficaz dos seus medicamentos, abrangendo todas as etapas, desde o armazenamento e utiliza��o at� ao respetivo descarte adequado.
+A nossa Prova de Aptid�o Profissional (PAP) assenta precisamente neste prop�sito: o desenvolvimento de uma aplica��o inteligente e integrada para a gest�o de medicamentos.
+A referida aplica��o visa aperfei�oar o processo de gest�o terap�utica, incorporando funcionalidades inovadoras que promovem a organiza��o do utilizador e aumentam a efici�ncia no uso da sua medica��o. Este projeto tem como objetivo disponibilizar uma solu��o completa, que n�o s� facilite o acompanhamento rigoroso do consumo de medicamentos, mas que tamb�m contribua para a sustentabilidade ambiental, assegurando o correto descarte de produtos farmac�uticos. (Anexo I)
+
+Contextualiza��o da problem�tica
+Segundo dados da Organiza��o Mundial da Sa�de (OMS), aproximadamente 50% da popula��o mundial n�o cumpre corretamente a toma dos seus medicamentos, sendo que esta falha terap�utica contribui diretamente para cerca de 10% de todos os internamentos hospitalares registados a n�vel global. Estes n�meros evidenciam que a ades�o inadequada � terap�utica farmacol�gica constitui um desafio significativo para a sa�de p�blica, afetando n�o apenas a efic�cia do tratamento individual, mas tamb�m a efici�ncia e a sustentabilidade dos sistemas de sa�de.
+Em Portugal, esta problem�tica assume contornos particularmente cr�ticos devido ao envelhecimento progressivo da popula��o, que aumenta a depend�ncia de cuidados prim�rios e acompanhamento m�dico regular. Entre os fatores que dificultam a ades�o correta � medica��o, destaca-se a solid�o, sobretudo entre os idosos, que contribui para esquecimentos, administra��o incorreta de doses e falhas no seguimento das rotinas terap�uticas.
+A situa��o � ainda mais complexa devido � duplica��o da medica��o, um fen�meno relativamente frequente entre os utentes. Este problema pode surgir por confus�o entre diferentes marcas ou gen�ricos, embalagens semelhantes ou instru��es pouco claras. A duplica��o da medica��o aumenta significativamente o risco de sobredosagens, intera��es medicamentosas adversas e falhas terap�uticas, representando uma amea�a tanto para a sa�de individual como para a seguran�a p�blica.
+A problem�tica � agravada pela elevada preval�ncia de polimedica��o em Portugal, definida como o uso regular de cinco ou mais f�rmacos. Entre os indiv�duos com mais de 65 anos, cerca de 36,9% utilizam m�ltiplos medicamentos de forma cont�nua, expondo-se a maiores riscos de efeitos adversos, intera��es farmacol�gicas e complica��es decorrentes da gest�o inadequada da terap�utica. Este contexto evidencia a necessidade urgente de estrat�gias que promovam uma gest�o eficaz da medica��o, aumentando a ades�o ao tratamento, reduzindo erros e prevenindo riscos associados � polimedica��o.
+As consequ�ncias da m� ades�o terap�utica e da polimedica��o s�o diversas e profundas. No n�vel individual, incluem o agravamento da condi��o de sa�de, prolongamento do tempo de recupera��o e aumento da probabilidade de complica��es graves. No n�vel do sistema de sa�de, a n�o ades�o a tratamentos prescritos contribui para internamentos hospitalares evit�veis, aumento dos custos associados ao cuidado cont�nuo e maior press�o sobre recursos m�dicos e farmac�uticos. Estudos nacionais e internacionais demonstram que a n�o ades�o pode ainda resultar em inefici�ncia econ�mica, dado que os investimentos em medicamentos prescritos n�o produzem os resultados esperados, e em maior incid�ncia de eventos adversos, que poderiam ser prevenidos com uma gest�o adequada da medica��o.
+Este conjunto de fatores refor�a a import�ncia de solu��es tecnol�gicas e educativas que apoiem os utentes na correta administra��o dos medicamentos. A implementa��o de ferramentas que auxiliem na organiza��o, acompanhamento e monitoriza��o da terap�utica n�o s� contribui para a seguran�a do paciente, mas tamb�m para a sustentabilidade do sistema de sa�de, prevenindo riscos evit�veis e promovendo uma cultura de utiliza��o racional dos f�rmacos.
+
+Desafios no uso de medicamentos
+A gest�o adequada da medica��o � um fator determinante para a sa�de individual e coletiva. A sua administra��o incorreta pode comprometer a efic�cia do tratamento, agravar a condi��o cl�nica do utente e gerar sobrecarga para o sistema de sa�de. Entre os principais desafios identificados est�o a ades�o terap�utica, erros de medica��o, intera��es medicamentosas, posologia incorreta, sobredosagem e controlo dos prazos de validade.
+
+Ades�o � Terap�utica
+A ades�o � terap�utica refere-se ao cumprimento rigoroso das doses, hor�rios e dura��o dos tratamentos prescritos pelos profissionais de sa�de. A sua import�ncia � fundamental, pois a n�o ades�o compromete a efic�cia do tratamento, aumenta a probabilidade de complica��es cl�nicas e pode conduzir a internamentos hospitalares evit�veis.
+A n�o ades�o pode ocorrer por diversos motivos: esquecimento, dificuldades cognitivas, complexidade do regime terap�utico, efeitos secund�rios dos medicamentos, custos econ�micos e falta de compreens�o das instru��es m�dicas. Em Portugal, estudos revelam que mais de 50% dos utentes n�o seguem corretamente as terapias prescritas, um fen�meno que se agrava na popula��o idosa e nos polimedicados.
+As consequ�ncias da baixa ades�o incluem:
+* Agravamento da condi��o de sa�de;
+* Inefici�ncia do tratamento;
+* Risco aumentado de eventos adversos e complica��es;
+* Sobrecarga dos sistemas de sa�de, devido a internamentos e consultas adicionais.
+A ades�o terap�utica �, portanto, um elemento cr�tico da gest�o de medicamentos, sendo essencial implementar estrat�gias de apoio ao utente, educa��o para a sa�de e sistemas de monitoriza��o que facilitem a correta administra��o da medica��o.
+
+Trocas de Medica��o/ Duplica��o de medica��o
+Os erros de medica��o constituem outro desafio significativo e entre as causas mais frequentes est�o a semelhan�a de embalagens e r�tulos, a exist�ncia de m�ltiplos gen�ricos e tamb�m falhas de comunica��o entre prescritor, farmac�utico e utente. Estes erros podem resultar em agravamento da patologia, complica��es cl�nicas e internamentos evit�veis, tornando imprescind�vel a ado��o de protocolos de verifica��o, para diminuir a probabilidade de erro.
+
+Intera��es Medicamentosas
+As intera��es medicamentosas representam outro fator de risco relevante. Ocorrem quando dois ou mais f�rmacos, ou a combina��o destes com alimentos ou outras subst�ncias, alteram o efeito esperado, podendo aumentar a toxicidade, reduzir a efic�cia terap�utica ou provocar rea��es adversas inesperadas. Exemplos incluem a combina��o de anticoagulantes com anti-inflamat�rios, que eleva o risco de hemorragias, ou certos antibi�ticos que reduzem a efic�cia de contracetivos orais. A preven��o destas intera��es depende de comunica��o efetiva com os profissionais de sa�de, revis�o peri�dica da terap�utica, especialmente em pacientes polimedicados, e consulta imediata em caso de sintomas novos. 
+
+
+
+Posologia 
+A posologia correta � fundamental para garantir a efic�cia e seguran�a do tratamento. Qualquer desvio na dose, frequ�ncia, via de administra��o ou dura��o pode comprometer os resultados cl�nicos: subdosagens podem levar a falhas terap�uticas, enquanto sobredosagens aumentam o risco de toxicidade e complica��es graves. Entre as causas mais comuns est�o a administra��o incorreta pelo utente e falta de compreens�o das instru��es, sobretudo em pacientes idosos ou com d�fices cognitivos.
+A sobredosagem, seja resultante de erro humano, falhas na ades�o ou erros t�cnicos, apresenta riscos significativos, incluindo agravamento do estado cl�nico, desenvolvimento de resist�ncia farmacol�gica e necessidade de interven��o m�dica urgente. Para mitigar estes riscos, s�o essenciais a verifica��o rigorosa das doses prescritas, a monitoriza��o cont�nua de pacientes em tratamentos de alto risco, a educa��o do utente, a rotulagem clara das embalagens e a utiliza��o de dispositivos de dosagem, como caixas organizadoras, que facilitem a correta administra��o da medica��o. 
+
+Prazos de Validade
+Os prazos de validade dos medicamentos desempenham um papel crucial na efic�cia e seguran�a do tratamento. A utiliza��o de medicamentos expirados pode comprometer a efic�cia, formar subst�ncias t�xicas e levar a falhas terap�uticas, especialmente em f�rmacos cr�ticos como antibi�ticos ou anticoncecionais. A verifica��o peri�dica das datas de validade, o descarte respons�vel e o armazenamento adequado s�o pr�ticas essenciais para a prote��o do utente e do meio ambiente.
+
+A Aplica��o DailyMed
+A DailyMed surge como uma resposta inovadora � necessidade crescente de aumentar a seguran�a e reduzir os riscos associados � terap�utica farmacol�gica. A m� gest�o de medicamentos � que inclui erros de medica��o, falta de ades�o terap�utica, posologia incorreta, intera��es medicamentosas, sobredosagem e utiliza��o de medicamentos fora do prazo de validade � constitui um problema de sa�de p�blica com impacto direto na sa�de individual, aumento de complica��es cl�nicas e sobrecarga dos sistemas de sa�de.
+A aplica��o foi concebida para apoiar utentes que necessitam de gerir rotinas de medica��o complexas e, muitas vezes, longas. Frequentemente, pacientes esquecem doses, administram medicamentos incorretamente ou combinam f�rmacos de forma insegura, comprometendo a efic�cia do tratamento e aumentando o risco de eventos adversos. A DailyMed atua como uma ferramenta de preven��o, ajudando a minimizar estes erros, promovendo a ades�o correta aos regimes terap�uticos e facilitando a gest�o dom�stica dos medicamentos.
+A import�ncia da aplica��o � especialmente relevante para determinados grupos de utentes:
+* Pacientes cr�nicos e polimedicados, que necessitam de gerir m�ltiplos medicamentos simultaneamente, muitas vezes com hor�rios diferentes, aumentando o risco de confus�o ou administra��o incorreta.
+* Pessoas idosas, que apresentam maior vulnerabilidade a esquecimentos, erros de posologia e dificuldade em compreender instru��es m�dicas complexas.
+Al�m de fornecer informa��o confi�vel e atualizada sobre cada medicamento, a DailyMed serve como um suporte ativo � gest�o da medica��o, permitindo que os utentes planeiem, organizem e controlem as suas terap�uticas. Desta forma, a aplica��o contribui para reduzir o risco de problemas recorrentes, tais como trocas indevidas de medica��o, sobredosagem, intera��es medicamentosas perigosas ou administra��o de medicamentos expirados.
+O impacto da DailyMed vai al�m da simples disponibiliza��o de informa��es. Ao integrar educa��o em sa�de, monitoriza��o e alertas sobre os medicamentos, a aplica��o promove comportamentos seguros e conscientes no uso de f�rmacos, aumentando a autonomia do utente e incentivando uma rela��o mais informada e respons�vel com a terap�utica.
+Em suma, a DailyMed estabelece uma liga��o direta entre os desafios identificados na gest�o de medicamentos e a solu��o tecnol�gica pr�tica que oferece. Funciona como um recurso confi�vel que apoia tanto a ades�o terap�utica quanto a preven��o de erros, tornando-se uma ferramenta indispens�vel para a seguran�a do paciente no dia a dia.
+
+Funcionalidades da DailyMed
+Para alcan�ar o nosso objetivo, a aplica��o integrar� um conjunto de funcionalidades que ser�o detalhadas abaixo, demonstrando como a aplica��o traduz os objetivos planeados em a��es concretas de apoio ao utente.
+
+Arm�rio Digital de Medicamentos
+O Arm�rio Digital de Medicamentos constitui o n�cleo central da aplica��o, permitindo ao utilizador registar todos os medicamentos que possui em casa. Atrav�s desta funcionalidade, ser� poss�vel introduzir informa��es como o nome do medicamento, o princ�pio ativo, a dosagem, a posologia, a quantidade dispon�vel e a data de validade.
+Com base nestes dados, o sistema gerar� automaticamente um invent�rio digital, proporcionando ao utilizador uma vis�o clara e organizada da medica��o dispon�vel, bem como da eventual necessidade de reposi��o. Adicionalmente, esta funcionalidade permitir� classificar os medicamentos em categorias pr�-definidas, tais como medicamentos de uso cont�nuo, de uso ocasional ou destinados a condi��es espec�ficas. Esta organiza��o facilita uma gest�o mais rigorosa e eficiente, evitando erros comuns, como a duplica��o involunt�ria da toma ou o uso indevido fora da posologia recomendada.
+
+Lembretes Personaliz�veis
+A funcionalidade de lembretes personaliz�veis � essencial para garantir a ades�o correta � terap�utica. Muitos utilizadores apresentam dificuldades em seguir os hor�rios e as doses prescritas, sendo este um fator que compromete a efic�cia do tratamento.
+Atrav�s desta funcionalidade, o utilizador poder� configurar notifica��es ajustadas � sua rotina di�ria. A aplica��o enviar� alertas nos momentos apropriados e permitir� confirmar a toma diretamente na plataforma, contribuindo para um registo rigoroso e atualizado do hist�rico de medica��o.
+
+Alertas de Validade e de Stock
+A monitoriza��o da validade dos medicamentos � fundamental para assegurar a efic�cia e seguran�a dos tratamentos. A aplica��o emitir� alertas quando a data de validade de um medicamento estiver pr�xima, prevenindo a utiliza��o de produtos expirados.
+Paralelamente, o utilizador poder� registar a quantidade dispon�vel de cada medicamento, permitindo ao sistema monitorizar o stock. Caso o stock de determinado medicamento atinja um n�vel cr�tico, ser� emitido um alerta para reposi��o atempada. Este mecanismo contribui para uma gest�o respons�vel, evitando interrup��es terap�uticas e reduzindo o desperd�cio.
+
+Alertas de Intera��es Medicamentosas
+As intera��es entre medicamentos podem comprometer a efic�cia da terap�utica e, em alguns casos, representar riscos graves para a sa�de. A aplica��o incluir� um sistema de dete��o autom�tica de intera��es medicamentosas potenciais, com base nos produtos registados no Arm�rio Digital. Esta funcionalidade ser� especialmente �til para utilizadores com doen�as cr�nicas que necessitam de m�ltiplos medicamentos, permitindo prevenir complica��es frequentemente dif�ceis de identificar sem apoio tecnol�gico.
+
+Artigos e Dicas de Sa�de
+A aplica��o integrar� uma sec��o dedicada � literacia em sa�de, disponibilizando artigos e conte�dos informativos sobre gest�o de doen�as cr�nicas, h�bitos de vida saud�veis, nutri��o, atividade f�sica e preven��o de doen�as. Esta abordagem pretende complementar a gest�o da medica��o com uma perspetiva mais abrangente de promo��o da sa�de e bem-estar.
+
+Guia de Reciclagem
+A aplica��o disponibilizar� um guia pr�tico sobre os procedimentos corretos para a reciclagem de medicamentos. Este guia explicar� como separar, acondicionar e entregar os produtos farmac�uticos fora de uso, assegurando que s�o tratados de forma ambientalmente respons�vel. O objetivo � promover comportamentos sustent�veis e evitar o descarte inadequado de medicamentos no lixo comum ou esgotos.
+
+Folheto Informativo Simplificado 
+Os folhetos informativos simplificados t�m como objetivo apresentar informa��o essencial sobre medicamentos e cuidados de sa�de de forma clara e acess�vel. Ao recorrer a linguagem simples e organizada, a aplica��o pode ajudar a reduzir d�vidas, prevenir erros na toma de medicamentos e promover a literacia em sa�de.
+Funcionalidades Futuras da DailyMed
+
+Conta associada � minha farm�cia
+A cria��o de uma conta associada � farm�cia habitual do utilizador permitir� uma rela��o mais pr�xima entre o cidad�o e o profissional de sa�de. Esta funcionalidade facilita o acesso a informa��es personalizadas, como aconselhamento farmac�utico, hist�rico de intera��es ou servi�os dispon�veis, refor�ando a continuidade dos cuidados e a confian�a no acompanhamento prestado.
+
+Perfis personalizados para diferentes tipos de diagn�stico
+A implementa��o de perfis personalizados consoante o diagn�stico do utilizador permitir� adaptar os conte�dos e funcionalidades da aplica��o �s suas necessidades espec�ficas. Desta forma, a informa��o disponibilizada torna-se mais relevante, clara e �til, contribuindo para uma melhor compreens�o da doen�a e para uma gest�o mais eficaz da sa�de.
+
+Acrescentar l�nguas 
+A disponibiliza��o da aplica��o em v�rias l�nguas aumenta a sua acessibilidade e inclus�o, permitindo que um maior n�mero de utilizadores a possa utilizar. Esta funcionalidade � especialmente importante em contextos multiculturais e para utilizadores estrangeiros, garantindo uma melhor compreens�o da informa��o de sa�de apresentada.
+
+Localizador de Pontos de Reciclagem de Medicamentos
+A reciclagem correta de medicamentos � essencial para prevenir a contamina��o ambiental e garantir a seguran�a p�blica. Para facilitar este processo, a aplica��o incluir� um localizador de pontos de recolha e reciclagem, permitindo ao utilizador identificar rapidamente os locais mais pr�ximos onde poder� entregar medicamentos expirados ou n�o utilizados. Esta funcionalidade visa simplificar o processo de devolu��o e incentivar pr�ticas ambientalmente adequadas. 
+Gamifica��o 
+A gamifica��o consiste na aplica��o de elementos t�picos dos jogos, como pontos, desafios ou recompensas, em contextos n�o l�dicos. Na aplica��o, esta estrat�gia poder� ser utilizada para incentivar a ades�o ao tratamento, promovendo h�bitos saud�veis e aumentando a motiva��o do utilizador. Ao tornar a utiliza��o da aplica��o mais interativa e envolvente, espera-se melhorar o acompanhamento da terap�utica e o compromisso com a pr�pria sa�de.  
+
+An�lise SWOT
+A an�lise SWOT da aplica��o DailyMed evidencia o seu potencial no apoio � gest�o terap�utica e � promo��o da seguran�a medicamentosa.
+Entre as principais for�as destacam-se a capacidade de organizar eficazmente a medica��o, melhorar a ades�o ao tratamento atrav�s de lembretes personalizados e prevenir riscos associados ao uso incorreto de medicamentos por meio de alertas de validade. O car�ter inovador da aplica��o, aliado � integra��o da sustentabilidade e � componente educativa, refor�a o seu valor acrescentado num contexto de crescente necessidade de literacia em sa�de.
+No que respeita �s fraquezas, identificam-se desafios como a exig�ncia de inser��o manual dos medicamentos, a possibilidade de erros na introdu��o de dados por parte do utilizador, a falta de notoriedade inicial no mercado e a aus�ncia de parcerias estrat�gicas que poderiam acelerar o desenvolvimento do projeto.
+As oportunidades externas surgem sobretudo do envelhecimento da popula��o, do aumento de utentes polimedicados e do crescimento do mercado de sa�de digital. Exist�ncia de potenciais parcerias com institui��es de sa�de e entidades ligadas � reciclagem, bem como o interesse crescente por solu��es sustent�veis, constituem igualmente vetores de expans�o.
+Por fim, as amea�as incluem a concorr�ncia de aplica��es j� estabelecidas, a necessidade de cumprir rigorosamente as normas legais relacionadas com medicamentos e prote��o de dados, e a eventual limita��o no acesso a informa��es fidedignas e atualizadas, essenciais para algumas funcionalidades da plataforma.
+
+
+FUNDAMENTA��O PR�TICA
+Descri��o das Atividades
+
+Atividade 1: Cria��o do log�tipo
+
+Data: 24 de setembro de 2025
+Local: Escola Profissional Profitecla - Porto
+P�blico-alvo: Popula��o em geral 
+Objetivos: Desenvolver um log�tipo representativo do tema da PAP, garantindo que a identidade visual do projeto fosse clara, apelativa e facilmente reconhecida pela comunidade escolar.
+Descri��o da Atividade: Foi criado um log�tipo original relacionado com o conceito da nossa aplica��o, DailyMed. O objetivo foi representar visualmente a ideia de organiza��o terap�utica e apoio ao utilizador, sendo por isso escolhido um design simples, moderno e de f�cil identifica��o. O log�tipo inclui o nome do projeto e elementos gr�ficos associados ao nosso projeto.
+Avalia��o da Atividade: A elabora��o do log�tipo contribuiu de forma significativa para a uniformiza��o da imagem do projeto. A sua utiliza��o posterior em mat�rias gr�ficos, documenta��o e redes sociais ajudou a consolidar a identidade visual da PAP, tornando o nosso trabalho mais profissional e coerente. (Anexo II)
+
+Atividade 2: Cria��o da p�gina do Instagram
+
+Data: 24 de setembro de 2025
+Local: Escola Profissional Profitecla - Porto
+P�blico-Alvo: Comunidade escolar
+Objetivos: Criar uma p�gina de Instagram para divulgar o projeto, permitindo informar a comunidade sobre as atividades realizadas e promover a DailyMed de forma acess�vel e din�mica.
+Descri��o da Atividade: Foi criada uma conta espec�fica para o projeto, onde come��mos a partilhar conte�dos relacionados com a nossa PAP. A plataforma permitiu-nos comunicar com a maior rapidez e efic�cia, apresentando publica��es sobre a aplica��o, identidade visual, curiosidades sobre a gest�o de medicamentos e registos das atividades desenvolvidas ao longo do ano.
+Avalia��o da Atividade: A cria��o da p�gina revelou-se bastante �til, pois aumentou a visibilidade da PAP e aproximou o p�blico ao tema. Atrav�s das publica��es, stories e intera��es, conseguimos refor�ar a divulga��o e manter a comunidade envolvida no progresso do projeto. (Anexo III)
+
+Atividade 3: Sweatshirts personalizadas
+
+Data: 4 de novembro de 2025
+Local: Estampagens .PT
+P�blico-alvo: Elementos do grupo
+Objetivos: Identificar visualmente os membros do grupo e refor�ar a presen�a do nosso projeto durante apresenta��es, atividades e a��es de sensibiliza��o.
+Descri��o da Atividade: Foram produzidas sweatshirts personalizadas alusivas ao nosso projeto. O objetivo foi criar uma pe�a de vestu�rio que transmitisse profissionalismo e promovesse o reconhecimento imediato da equipa.
+Avalia��o da Atividade: A utiliza��o das sweatshirts ajudou a fortalecer a fortalecer a identidade do grupo e contribuiu para a divulga��o do tema da PAP. Sempre que usadas em contexto de atividade, facilitaram a identifica��o dos membros e chamaram a aten��o de outros alunos e docentes, aumentando a visibilidade do nosso trabalho. (Anexo IV)
+
+Atividade 4: A��o de Sensibiliza��o aos alunos da Escola Profissional Profitecla do Porto
+
+Data: 17 a 21 de novembro de 2025
+Local: Escola Profissional Profitecla - Porto
+P�blico-alvo: Comunidade escolar
+Objetivos: Sensibilizar a comunidade escolar para a import�ncia da reciclagem de medicamentos e para os riscos ambientais e de sa�de p�blica associados ao descarte incorreto destes produtos.
+Descri��o da Atividade: Foi organizada uma campanha informativa dedicada ao sistema Valormed. A atividade inclui a distribui��o de flyers, apresenta��o nas salas a dar a conhecer o tema. Nesse espa�o os alunos podiam esclarecer d�vidas sobre como descartar corretamente medicamentos fora de validade, embalagens e res�duos farmac�uticos. Tamb�m promovemos uma recolha simb�lica, incentivando a entrega de medicamentos expirados para posterior encaminhamento adequado.
+Avalia��o da Atividade: A campanha teve uma boa ades�o por parte da comunidade escolar e permitiu consciencializar os alunos sobre pr�ticas respons�veis no �mbito da sa�de e do ambiente. Muitos estudantes mostraram curiosidade sobre o processo Valormed e valorizaram a oportunidade de aprender algo que poder�o aplicar no dia a dia. A atividade contribuiu para refor�ar o car�cter educativo da nossa PAP e alinhou-se diretamente com uma das funcionalidades centrais da DailyMed. (Anexo V)
+
+Atividade 5: A��o de Sensibiliza��o aos alunos da Escola B�sica de Matosinhos
+
+Data: 7 de janeiro
+Local: Escola B�sica de Matosinhos 
+P�blico-Alvo: Comunidade escolar
+Objetivos: Sensibilizar a comunidade escolar para os riscos da medica��o e para a import�ncia da reciclagem dos mesmos
+Descri��o da Atividade: A atividade consistiu numa sess�o de sensibiliza��o dirigida � comunidade escolar, abordando o tema das fake news relacionadas com a medica��o e os riscos associados � automedica��o e � desinforma��o. Foram tamb�m explicadas boas pr�ticas sobre a correta utiliza��o e reciclagem de medicamentos, destacando a import�ncia de n�o os deitar no lixo comum ou na sanita, mas sim entreg�-los em locais apropriados. A sess�o incluiu exemplos pr�ticos e momentos de intera��o com os participantes. 
+Avalia��o da Atividade: A atividade teve uma boa ades�o por parte da comunidade escolar, com participa��o ativa e interesse nos temas abordados. Os objetivos foram alcan�ados, verificando-se uma maior consciencializa��o sobre os perigos da desinforma��o e a import�ncia da reciclagem correta de medicamentos. A iniciativa contribuiu para a promo��o de comportamentos mais respons�veis e informados. (Anexo VI)
+
+
+
+
+
+
+
+
+Parcerias/ Patroc�nios
+
+Figura 1. Parceria profitecla
+
+Figura 2. Parceria valormed
+
+Figura 3. Parceria Escola B�sica de Matosinhos	
+
+Figura 4. Farm�cia Alian�a
+Biografia/Webgrafia
+
+
+
+Conclus�o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             Anexos
+
+
+
+
+
+
+
+
+
+Atividades / Meses
+Set
+Out
+Nov
+Dez
+Jan
+Fev
+Mar
+Planeamento da PAP
+?
+?
+
+
+
+
+
+Cria��o do Log�tipo
+?
+
+
+
+
+
+
+Cria��o da P�gina Instagram
+?
+?
+?
+?
+?
+?
+?
+Desenvolvimento da Identidade Visual
+
+?
+?
+
+
+
+
+Cria��o das Sweatshirts
+
+
+?
+
+
+
+
+Campanha Valormed
+
+
+?
+
+
+
+
+Sess�o Fake News e Reciclagem
+
+
+
+
+?
+
+
+Desenvolvimento do Conte�do Te�rico
+
+?
+?
+?
+?
+?
+
+Elabora��o do Relat�rio Final
+
+
+
+
+
+?
+?
+Prepara��o da Apresenta��o Final
+
+
+
+
+
+
+?
+Anexo I- Diagrama de GANTT
+s
+Setembro de 2025 a Mar�o de 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Anexo II- Log�tipo
+
+
+
+
+
+
+
+
+
+
+
+
+Anexo III- P�gina na plataforma Instagram
+
+
+
+
+
+
+
+
+
+Anexo IV- Sweatshirt
+
+   
+
+
+
+Anexo V- Campanha: �Valormed�
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Anexo VI- Escola B�sica de Matosinhos: �Fake News e Reciclagem�
+   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+4
+Bianca Vasconcelos | Diana Franco | Jos� Neves
+
+
+
+
+
+
+
+
+
+
+
+
+
