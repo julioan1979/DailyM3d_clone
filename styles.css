@@ -1,0 +1,218 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f7fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header .tagline {
+    font-size: 1.3em;
+    font-weight: 300;
+    opacity: 0.95;
+}
+
+/* Main Section Styles */
+main {
+    padding: 40px 0;
+}
+
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 50px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #667eea;
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.about ul {
+    list-style: none;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.about ul li {
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: #f8f9ff;
+    border-left: 4px solid #667eea;
+    border-radius: 6px;
+    font-size: 1.05em;
+    color: #444;
+}
+
+/* Creators Section */
+.creators {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf3 100%);
+}
+
+.creators p {
+    font-size: 1.15em;
+    text-align: center;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+}
+
+.creators-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.creators-info p {
+    font-size: 1.1em;
+    color: #667eea;
+    font-weight: 600;
+}
+
+/* Download Section */
+.download {
+    text-align: center;
+    background: linear-gradient(135deg, #ffeef8 0%, #f3e7ff 100%);
+}
+
+.download p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.download-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 1.3em;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.download-btn:active {
+    transform: translateY(-1px);
+}
+
+/* Footer Styles */
+footer {
+    background: #2d3748;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.95em;
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header .tagline {
+        font-size: 1.1em;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    .about p,
+    .creators p,
+    .download p {
+        font-size: 1em;
+    }
+
+    .about ul li {
+        font-size: 0.95em;
+        padding: 12px 15px;
+    }
+
+    .download-btn {
+        font-size: 1.1em;
+        padding: 15px 40px;
+    }
+
+    section {
+        padding: 35px 15px;
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 40px 0;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+        letter-spacing: 1px;
+    }
+
+    header .tagline {
+        font-size: 1em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    .download-btn {
+        font-size: 1em;
+        padding: 12px 30px;
+    }
+}
