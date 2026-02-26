@@ -18,6 +18,7 @@
 
     <title>DailyMed - Organização de Medicamentos</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="carousel.js"></script>
 </head>
 <body>
     <header class="site-header">
@@ -62,14 +63,19 @@
                 </div>
             </div>
             <div class="hero-visual" aria-hidden="true">
-                <div class="phone-stack">
-                    <div class="phone phone-front">
-                        <div class="phone-bar"></div>
-                        <div class="phone-block"></div>
-                        <div class="phone-block"></div>
-                        <div class="phone-block short"></div>
+                <!-- Carrossel de imagens -->
+                <div class="carousel">
+                    <div class="carousel-track">
+                        <img src="images/carrocel/(A) tela de inicio.jpeg" alt="Tela de início">
+                        <img src="images/carrocel/(B) armario de medicamentos.jpeg" alt="Armário de medicamentos">
+                        <img src="images/carrocel/(C) lembretes (1).jpeg" alt="Lembretes 1">
+                        <img src="images/carrocel/(D) lembretes (2).jpeg" alt="Lembretes 2">
+                        <img src="images/carrocel/(F) guia de reciclagem (2).jpeg" alt="Guia de reciclagem 2">
+                        <img src="images/carrocel/(G) guia de reciclagem.jpeg" alt="Guia de reciclagem">
+                        <img src="images/carrocel/(H) dicas de saude.jpeg" alt="Dicas de saúde">
                     </div>
-                    <div class="phone phone-back"></div>
+                    <button class="carousel-btn prev">&#10094;</button>
+                    <button class="carousel-btn next">&#10095;</button>
                 </div>
                 <p class="visual-caption">Capturas ilustrativas. As imagens finais serão adicionadas em breve.</p>
             </div>
@@ -167,15 +173,21 @@
                 </div>
                 <div class="preview-grid">
                     <div class="preview-card">
-                        <div class="preview-screen"></div>
+                        <div class="preview-screen">
+                            <img src="images/capturas/1.jpeg" alt="Resumo diário" style="width:100%;height:auto;border-radius:24px;">
+                        </div>
                         <p>Resumo diário com alertas de toma e validade.</p>
                     </div>
                     <div class="preview-card">
-                        <div class="preview-screen"></div>
+                        <div class="preview-screen">
+                            <img src="images/capturas/2.jpeg" alt="Armário digital" style="width:100%;height:auto;border-radius:24px;">
+                        </div>
                         <p>Armário digital com detalhes de cada medicamento.</p>
                     </div>
                     <div class="preview-card">
-                        <div class="preview-screen"></div>
+                        <div class="preview-screen">
+                            <img src="images/capturas/3.jpeg" alt="Calendário de posologia" style="width:100%;height:auto;border-radius:24px;">
+                        </div>
                         <p>Calendário de posologia e confirmação de tomas.</p>
                     </div>
                 </div>
