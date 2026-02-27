@@ -623,10 +623,19 @@ main {
 .preview-screen {
     height: 220px;
     border-radius: 24px;
-    background: #ffffff;
-    border: 1px dashed rgba(148, 130, 186, 0.35);
+    background: linear-gradient(180deg, #ffffff 0%, #eaf1f9 100%);
+    border: 1px solid rgba(147, 160, 181, 0.42);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.42), inset 0 7px 14px rgba(33, 48, 68, 0.08);
     margin-bottom: 16px;
     overflow: hidden;
+}
+
+.preview-screen--device {
+    border-radius: 28px;
+    border: 1px solid rgba(121, 136, 156, 0.5);
+    background: linear-gradient(170deg, #f8fbff 0%, #e5edf7 100%);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.58), inset 0 8px 14px rgba(23, 34, 50, 0.1);
+    padding: 8px;
 }
 
 .preview-screen img {
