@@ -48,7 +48,7 @@ body {
     height: 610px;
     margin-bottom: 16px;
     padding: 16px 10px;
-    overflow: hidden;
+    overflow: visible;
     border-radius: 46px;
     border: 1px solid rgba(30, 42, 54, 0.1);
     background: linear-gradient(160deg, #ffffff 0%, #f2f6fb 100%);
@@ -87,22 +87,35 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(148, 130, 186, 0.22);
+    background: rgba(255, 255, 255, 0.92);
     border: none;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     font-size: 1.6em;
-    color: #5a6d9d;
+    color: #3d4e78;
     cursor: pointer;
-    z-index: 4;
-    box-shadow: 0 6px 14px rgba(92, 114, 168, 0.18);
+    z-index: 6;
+    box-shadow: 0 8px 18px rgba(57, 76, 120, 0.24);
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carousel-btn:hover,
+.carousel-btn:focus-visible {
+    background: rgba(61, 78, 120, 0.92);
+    color: #ffffff;
+    box-shadow: 0 10px 22px rgba(38, 50, 84, 0.3);
+}
+
+.carousel-btn:focus-visible {
+    outline: 2px solid rgba(151, 206, 235, 0.9);
+    outline-offset: 2px;
 }
 .carousel-btn.prev {
-    left: 14px;
+    left: -18px;
 }
 .carousel-btn.next {
-    right: 14px;
+    right: -18px;
 }
 
 
@@ -847,6 +860,14 @@ footer {
         width: 250px;
         height: 500px;
         border-radius: 38px;
+    }
+
+    .carousel-btn.prev {
+        left: -8px;
+    }
+
+    .carousel-btn.next {
+        right: -8px;
     }
 
     .hero h1 {
