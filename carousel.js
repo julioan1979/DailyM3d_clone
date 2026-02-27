@@ -87,3 +87,40 @@ if (nextBtn && prevBtn && images.length) {
     showImage(currentIndex);
     startAutoplay();
 }
+
+const previewZoomTriggers = Array.from(document.querySelectorAll('.preview-zoom-trigger'));
+const imageLightbox = document.querySelector('.image-lightbox');
+const imageLightboxImage = document.querySelector('.image-lightbox__image');
+const imageLightboxClose = document.querySelector('.image-lightbox__close');
+
+if (imageLightbox && imageLightboxImage && imageLightboxClose && previewZoomTriggers.length) {
+    const closeLightbox = () => {
+        imageLightbox.close();
+        imageLightboxImage.src = '';
+        imageLightboxImage.alt = '';
+    };
+
+    previewZoomTriggers.forEach((trigger) => {
+        trigger.addEventListener('click', () => {
+            const imageElement = trigger.querySelector('img');
+            if (!imageElement) return;
+
+            imageLightboxImage.src = imageElement.src;
+            imageLightboxImage.alt = imageElement.alt;
+            imageLightbox.showModal();
+        });
+    });
+
+    imageLightboxClose.addEventListener('click', closeLightbox);
+
+    imageLightbox.addEventListener('click', (event) => {
+        if (event.target === imageLightbox) {
+            closeLightbox();
+        }
+    });
+
+    imageLightbox.addEventListener('cancel', (event) => {
+        event.preventDefault();
+        closeLightbox();
+    });
+}
