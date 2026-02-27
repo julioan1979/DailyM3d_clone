@@ -199,6 +199,28 @@ p {
     background: rgba(151, 206, 235, 0.28);
 }
 
+.nav-icon-link {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.nav-icon-link svg {
+    width: 21px;
+    height: 21px;
+    fill: currentColor;
+}
+
+.nav-icon-link:hover {
+    color: #7e5db4;
+    border-color: rgba(126, 93, 180, 0.45);
+    background: rgba(200, 160, 255, 0.2);
+}
+
 .hero {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
