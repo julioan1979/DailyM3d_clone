@@ -179,22 +179,28 @@
                 </div>
                 <div class="preview-grid">
                     <div class="preview-card">
-                        <div class="preview-screen">
-                            <img src="images/capturas/1.jpeg" alt="Resumo diário">
+                        <div class="preview-screen preview-screen--device">
+                            <button class="preview-zoom-trigger" type="button" aria-label="Ampliar imagem: Resumo diário">
+                                <img src="images/capturas/1.jpeg" alt="Resumo diário">
+                            </button>
                         </div>
-                        <p>Resumo diário com alertas de toma e validade.</p>
+                        <p>Resumo diário com alertas essenciais.</p>
                     </div>
                     <div class="preview-card">
-                        <div class="preview-screen">
-                            <img src="images/capturas/2.jpeg" alt="Armário digital">
+                        <div class="preview-screen preview-screen--device">
+                            <button class="preview-zoom-trigger" type="button" aria-label="Ampliar imagem: Armário digital">
+                                <img src="images/capturas/2.jpeg" alt="Armário digital">
+                            </button>
                         </div>
-                        <p>Armário digital com detalhes de cada medicamento.</p>
+                        <p>Armário digital com visão imediata.</p>
                     </div>
                     <div class="preview-card">
-                        <div class="preview-screen">
-                            <img src="images/capturas/3.jpeg" alt="Calendário de posologia">
+                        <div class="preview-screen preview-screen--device">
+                            <button class="preview-zoom-trigger" type="button" aria-label="Ampliar imagem: Calendário de posologia">
+                                <img src="images/capturas/3.jpeg" alt="Calendário de posologia">
+                            </button>
                         </div>
-                        <p>Calendário de posologia e confirmação de tomas.</p>
+                        <p>Calendário com confirmação de tomas.</p>
                     </div>
                 </div>
             </div>
@@ -400,6 +406,11 @@
             </div>
         </section>
     </main>
+
+    <dialog class="image-lightbox" aria-label="Visualização ampliada da captura de ecrã">
+        <button class="image-lightbox__close" type="button" aria-label="Fechar visualização ampliada">&times;</button>
+        <img class="image-lightbox__image" src="" alt="">
+    </dialog>
 
     <footer>
         <div class="container footer-content">

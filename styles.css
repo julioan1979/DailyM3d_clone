@@ -614,26 +614,89 @@ main {
 .preview-card {
     background: var(--card);
     border-radius: var(--radius);
-    padding: 24px;
+    padding: 18px;
     border: 1px solid var(--border);
-    box-shadow: var(--shadow-soft);
+    box-shadow: 0 8px 18px rgba(24, 40, 66, 0.05);
     text-align: left;
 }
 
 .preview-screen {
-    height: 220px;
+    height: 290px;
     border-radius: 24px;
     background: linear-gradient(180deg, #ffffff 0%, #eaf1f9 100%);
     border: 1px dashed rgba(148, 130, 186, 0.35);
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     overflow: hidden;
+}
+
+.preview-screen--device {
+    border-radius: 28px;
+    border: 1px solid rgba(121, 136, 156, 0.5);
+    background: linear-gradient(170deg, #f8fbff 0%, #e5edf7 100%);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.58), inset 0 8px 14px rgba(23, 34, 50, 0.1);
+    padding: 8px;
 }
 
 .preview-screen img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: inherit;
+}
+
+.preview-zoom-trigger {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    cursor: zoom-in;
+    border-radius: inherit;
+    background: transparent;
+}
+
+.preview-zoom-trigger:focus-visible {
+    outline: 2px solid rgba(126, 93, 180, 0.75);
+    outline-offset: -2px;
+}
+
+.image-lightbox {
+    width: min(94vw, 440px);
+    border: 0;
+    padding: 16px;
+    border-radius: 24px;
+    background: #f8fbff;
+    box-shadow: 0 24px 50px rgba(24, 40, 66, 0.3);
+}
+
+.image-lightbox::backdrop {
+    background: rgba(16, 24, 40, 0.7);
+    backdrop-filter: blur(2px);
+}
+
+.image-lightbox__image {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 18px;
+}
+
+.image-lightbox__close {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 2rem;
+    color: #3d4e78;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.preview-card p {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.95em;
 }
 
 .security-grid {
@@ -822,6 +885,10 @@ footer {
     .team-card {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .preview-screen {
+        height: 270px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -867,6 +934,10 @@ footer {
         flex-direction: column;
         align-items: flex-start;
     }
+
+    .preview-screen {
+        height: 320px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -904,6 +975,14 @@ footer {
     .preview-card,
     .security-card {
         padding: 20px;
+    }
+
+    .preview-card {
+        padding: 16px;
+    }
+
+    .preview-screen {
+        height: 280px;
     }
 
     .team-card {
