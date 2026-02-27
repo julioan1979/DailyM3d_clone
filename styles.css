@@ -199,6 +199,36 @@ p {
     background: rgba(151, 206, 235, 0.28);
 }
 
+.nav-icon-link {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 130, 186, 0.45);
+    color: #5a6d9d;
+    background: rgba(151, 206, 235, 0.28);
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-icon-link svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.nav-icon-link:hover {
+    color: #7e5db4;
+    border-color: rgba(126, 93, 180, 0.45);
+    background: rgba(200, 160, 255, 0.2);
+}
+
 .hero {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -709,6 +739,22 @@ details p {
 .callout .ghost {
     border-color: rgba(255, 255, 255, 0.5);
     color: #ffffff;
+}
+
+.callout .cta-instagram {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.callout .cta-instagram svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 footer {
