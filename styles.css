@@ -315,12 +315,16 @@ p {
 }
 
 .ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 22px;
     border-radius: 999px;
     border: 1px solid rgba(148, 130, 186, 0.35);
     background: #ffffff;
     color: #5f6f8a;
     font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 .ghost:disabled {
@@ -818,6 +822,21 @@ details p {
 .callout .ghost {
     border-color: rgba(255, 255, 255, 0.5);
     color: #ffffff;
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.callout .ghost:hover,
+.callout .ghost:focus-visible {
+    background: #ffffff;
+    color: #5a6d9d;
+    box-shadow: 0 12px 20px rgba(40, 52, 93, 0.22);
+    transform: translateY(-2px);
+}
+
+.callout .cta:focus-visible,
+.callout .ghost:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.85);
+    outline-offset: 2px;
 }
 
 .callout .cta-instagram {
@@ -970,6 +989,15 @@ footer {
 
     .hero h1 {
         font-size: 2rem;
+    }
+
+    .callout-actions {
+        width: 100%;
+    }
+
+    .callout-actions .cta,
+    .callout-actions .ghost {
+        width: 100%;
     }
 
     .card,
