@@ -623,7 +623,7 @@ main {
 .preview-screen {
     height: 220px;
     border-radius: 24px;
-    background: linear-gradient(180deg, #ffffff 0%, #eaf1f9 100%);
+    background: #ffffff;
     border: 1px dashed rgba(148, 130, 186, 0.35);
     margin-bottom: 16px;
     overflow: hidden;
@@ -632,7 +632,7 @@ main {
 .preview-screen img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: inherit;
 }
 
